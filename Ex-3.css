@@ -1,0 +1,50 @@
+
+.list-container{
+    padding-top: 50px;
+    width: 1200px;
+    clear: both;
+}
+
+.image-list{
+    list-style-type: none;
+}
+
+img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+
+
+@media screen and (min-width: 1200px){
+    
+    .list-container{
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    
+    .list-container{
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    
+    .list-container{
+        width: 300px;
+    }
+    
+    img{
+       padding-right: 0px; 
+    }
+    
+
+    
+}
